@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090d" />
+    <meta name="description" content="A personal astrology experience built around your birth chart, your current life, and the questions you care about." />
+    <title>astria — Your chart. Your questions. Your story.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="aurora aurora-three"></div>
+    <div class="stars" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Astria home"><span class="brand-mark">✦</span> astria</a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#readings">Readings</a>
+        <a href="#forecasts">Forecasts</a>
+        <a href="#compatibility">Compatibility</a>
+      </nav>
+      <button class="nav-cta" data-start>Get my reading <span>↗</span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> PERSONAL ASTROLOGY, REIMAGINED</div>
+          <h1>Your chart knows more than your <em>zodiac sign.</em></h1>
+          <p class="hero-sub">Your exact birth chart, your life right now, and the questions that matter to you — brought together in one deeply personal reading.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" data-start>Start my free reading <span>→</span></button>
+            <a class="text-link" href="#how">See how it works <span>↓</span></a>
+          </div>
+          <div class="trust-row"><span>✦ No quiz</span><span>✦ Based on your birth data</span><span>✦ Takes about 2 minutes</span></div>
+        </div>
+
+        <div class="chart-orbit reveal" aria-hidden="true">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+          <div class="planet planet-one">✦</div><div class="planet planet-two">·</div><div class="planet planet-three">✧</div>
+          <div class="chart-core"><span class="core-symbol">☾</span><span>YOUR<br />CHART</span></div>
+          <div class="floating-note note-one"><span>☉</span> your patterns</div>
+          <div class="floating-note note-two"><span>✧</span> your timing</div>
+          <div class="floating-note note-three"><span>♡</span> your relationships</div>
+        </div>
+      </section>
+
+      <section class="intro section-shell" id="how">
+        <div class="section-kicker">THE DIFFERENCE</div>
+        <div class="intro-grid">
+          <h2>Not a generic horoscope. <em>A conversation with your chart.</em></h2>
+          <p>We start with the sky you were born under. Then we ask what is actually happening in your life. The result is a reading shaped around <strong>you</strong> — not a million other people with the same Sun sign.</p>
+        </div>
+      </section>
+
+      <section class="steps section-shell">
+        <article class="step-card"><span>01</span><div class="step-icon">✦</div><h3>Tell us when you arrived</h3><p>Your name, birth date, time and birthplace create the foundation of your natal chart.</p></article>
+        <article class="step-card featured"><span>02</span><div class="step-icon">☾</div><h3>Tell us where you are</h3><p>Share what's happening now — or skip it. Your context helps us make the reading feel even more personal.</p></article>
+        <article class="step-card"><span>03</span><div class="step-icon">✧</div><h3>Choose what matters</h3><p>Pick up to three areas: love, money, career, purpose, growth, personality or timing.</p></article>
+      </section>
+
+      <section class="topics section-shell" id="readings">
+        <div class="section-kicker">EXPLORE YOUR CHART</div>
+        <div class="topics-heading"><h2>Ask the questions you've actually been <em>thinking about.</em></h2><p>Start with up to three free previews. Go deeper only when something speaks to you.</p></div>
+        <div class="topic-grid">
+          <article class="topic-card love"><span>♡</span><h3>Love & Relationships</h3><p>Connection, attraction, emotional patterns and partnership.</p></article>
+          <article class="topic-card money"><span>◌</span><h3>Money & Stability</h3><p>Your relationship with security, earning and financial patterns.</p></article>
+          <article class="topic-card career"><span>↗</span><h3>Career & Work</h3><p>Ambition, direction, work style and professional potential.</p></article>
+          <article class="topic-card self"><span>☉</span><h3>Personality & Emotions</h3><p>The inner wiring behind your strengths, needs and reactions.</p></article>
+          <article class="topic-card growth"><span>✺</span><h3>Shadow & Growth</h3><p>Blind spots, recurring patterns and the parts asking to evolve.</p></article>
+          <article class="topic-card purpose"><span>✧</span><h3>Life Purpose</h3><p>Direction, meaning and the deeper themes running through your life.</p></article>
+        </div>
+      </section>
+
+      <section class="forecast-banner section-shell" id="forecasts">
+        <div><div class="section-kicker">KEEP COMING BACK</div><h2>Your chart changes with the sky.</h2><p>Once your chart is yours, your personal forecast can follow you through the days, weeks, months and years ahead.</p></div>
+        <div class="forecast-pills"><span>☀ Daily</span><span>☾ Weekly</span><span>✦ Monthly</span><span>✧ Yearly</span></div>
+      </section>
+
+      <section class="compat section-shell" id="compatibility">
+        <div class="compat-art" aria-hidden="true"><div class="person-orbit one">♡</div><div class="person-orbit two">✦</div><div class="compat-heart">∞</div></div>
+        <div class="compat-copy"><div class="section-kicker">TWO CHARTS. ONE CONNECTION.</div><h2>Wondering where you and <em>someone else</em> align?</h2><p>Compare two birth charts for an astrology-based look at emotional connection, chemistry, communication, money dynamics, long-term themes and growth together.</p><button class="secondary-btn" data-start>Explore your chart first <span>→</span></button></div>
+      </section>
+
+      <section class="cta-section section-shell">
+        <div class="cta-glow"></div><div class="section-kicker">YOUR STORY STARTS HERE</div><h2>Ready to meet your chart?</h2><p>Get your first personalized reading free. No generic zodiac copy. No quiz pretending to know you.</p><button class="primary-btn" data-start>Begin my free reading <span>✦</span></button>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>✦ astria</span><span>Astrology for reflection, curiosity & self-discovery.</span><span>© 2026</span></footer>
+
+    <div class="modal-backdrop" id="onboarding" aria-hidden="true">
+      <div class="onboarding-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="close-modal" id="closeModal" aria-label="Close">×</button>
+        <div class="progress"><span id="progressBar"></span></div>
+        <div id="formContent"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
