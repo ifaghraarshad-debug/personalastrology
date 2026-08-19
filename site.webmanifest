@@ -1,0 +1,10 @@
+{
+  "name": "Auravie — Personalized Astrology",
+  "short_name": "Auravie",
+  "description": "Personalized astrology readings built from your exact birth chart.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
+  "icons": []
+}
